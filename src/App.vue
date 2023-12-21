@@ -24,6 +24,6 @@ export default{
 
 </template>
 
-<style>
+<style lang="scss">
 
 </style>

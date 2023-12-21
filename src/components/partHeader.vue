@@ -8,12 +8,14 @@ export default{
 
 <template>
 
-  <div>
+  <div class="content d-flex justify-content-center align-items-center">
     <h1>prova</h1>
   </div>
 
 </template>
 
-<style scoped>
-
+<style lang="scss" scoped>
+    .content{
+        width: 100vw;
+    }
 </style>
