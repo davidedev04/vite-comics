@@ -3,9 +3,9 @@ import partHeader from './components/partHeader.vue';
 import partMiddle from './components/partMiddle.vue';
 import partFooter from './components/partFooter.vue'
 
-export default{
+export default {
 
-  components:{
+  components: {
     partHeader,
     partMiddle,
     partFooter
@@ -15,15 +15,15 @@ export default{
 </script>
 
 <template>
-  
-
-
-  <partHeader/>
-  <partMiddle/>
-  <partFooter/>
-
+  <partHeader />
+  <partMiddle />
+  <partFooter />
 </template>
 
 <style lang="scss">
-
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 </style>
