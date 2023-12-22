@@ -36,8 +36,8 @@ export default {
 <template>
     <main>
         <div class="contentMiddle">
-            <div class="divTitle">
-                <h1 class="title"></h1>
+            <div class="divJumbo">
+                
             </div>
         </div>
         <div class="stats">
@@ -60,22 +60,8 @@ main {
 
     .contentMiddle {
         width: 100%;
-        height: 130px;
-        background-color: #1c1c1c;
-        @include displayFlex;
-        justify-content: center;
-
-        .divTitle {
-            width: 80%;
-
-            .title:after {
-                content: "-->Content goes here<--";
-                color: #fff;
-            }
-
-        }
-
-
+        height: 500px;
+        background-image: url(../assets/images/jumbotron.jpg);
     }
 
     .stats {
