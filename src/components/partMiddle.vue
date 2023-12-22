@@ -120,10 +120,13 @@ export default {
 
             </div>
             <div class="partImage">
+                <div class="currentS">
+                    <h2>CURRENT SERIES</h2>
+                </div>
                 <div class="widthCards">
 
-                    <cdCards 
-                    v-for="(comic, i) in comics" :key="i" :sections="comic" />
+                    <cdCards v-for="(comic, i) in comics" :key="i" :sections="comic" />
+
                 </div>
 
             </div>
@@ -162,6 +165,13 @@ main {
             background-color: #1c1c1c;
             @include displayFlex;
             justify-content: center;
+            flex-direction: column;
+
+            .currentS{
+                background-color: #0282f9;
+                color: #fff;
+                padding: 15px
+            }
 
             .widthCards {
                 @include widthContent;
