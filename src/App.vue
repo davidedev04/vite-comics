@@ -21,9 +21,15 @@ export default {
 </template>
 
 <style lang="scss">
+
   *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+
+  :root{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
 </style>

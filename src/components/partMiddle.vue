@@ -100,7 +100,7 @@ main {
                     object-fit: contain;
                 }
 
-                span{
+                span {
                     color: #fff;
                 }
 
