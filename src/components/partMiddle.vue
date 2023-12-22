@@ -1,7 +1,12 @@
 <script>
+import cdCards from './cdCards.vue';
+
 
 export default {
     name: "partMiddle",
+    components: {
+        cdCards
+    },
 
     data() {
         return {
@@ -37,8 +42,9 @@ export default {
     <main>
         <div class="contentMiddle">
             <div class="divJumbo">
-                
+
             </div>
+            <cdCards />
         </div>
         <div class="stats">
             <div class="descrizione">
