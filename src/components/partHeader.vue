@@ -86,7 +86,7 @@ export default {
 @use '../styles/general.scss' as *;
 
 header {
-  width: 100vw;
+  width: calc(100vw - 17px);
   height: 100px;
   @include displayFlex;
   justify-content: center;

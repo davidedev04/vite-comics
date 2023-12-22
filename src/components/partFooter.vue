@@ -83,7 +83,7 @@ export default {
 @use '../styles/general.scss' as *;
 
 footer {
-    width: 100vw;
+    width: calc(100vw - 17px);
 
 
 
